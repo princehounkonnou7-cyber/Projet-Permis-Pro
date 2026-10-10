@@ -1,0 +1,24 @@
+{
+  "name": "PermisPro - Auto-École SaaS",
+  "short_name": "PermisPro",
+  "description": "Plateforme de gestion et de révision pour auto-écoles",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#2563eb",
+  "icons": [
+    {
+      "src": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=192&auto=format&fit=crop&q=80",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=512&auto=format&fit=crop&q=80",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
+

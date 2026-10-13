@@ -31,7 +31,7 @@ export default function Login() {
         .eq('id', data.user.id)
         .single();
 
-      if (profile?.role === 'admin' || profile?.role === 'prof') {
+      if (profile?.role === 'gerant' || profile?.role === 'prof') {
         router.push('/admin/dashboard');
       } else {
         router.push('/etudiant/dashboard');
